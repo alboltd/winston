@@ -29,7 +29,7 @@
     "eslint": "^10.5.0",
     "hock": "^1.4.1",
     "jest": "^30.4.2",
-    "rimraf": "5.0.10",
+    "rimraf": "^6.1.4",
     "split2": "^4.1.0",
     "std-mocks": "^2.0.0",
     "through2": "^4.0.2",
@@ -60,11 +60,16 @@
   "overrides": {
     "browserslist": "4.29.5",
     "lodash": "4.18.1",
-    "minimatch": "9.0.9",
     "eslint": {
       "minimatch": "11.0.1"
     },
     "@eslint/config-array": {
+      "minimatch": "11.0.1"
+    },
+    "glob@10": {
+      "minimatch": "11.0.1"
+    },
+    "glob@13": {
       "minimatch": "11.0.1"
     }
   },
